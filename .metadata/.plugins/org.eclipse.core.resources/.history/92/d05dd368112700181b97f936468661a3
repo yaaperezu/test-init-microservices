@@ -1,0 +1,10 @@
+server:
+  port: 8880
+  
+spring:
+  application:
+    name: ClientConfigServerHC
+  profiles:
+    active:
+    - development
+

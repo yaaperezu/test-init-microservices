@@ -1,0 +1,12 @@
+package com.osi.his.eurekaserver.EurekaServerHC;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class EurekaServerHcApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(EurekaServerHcApplication.class, args);
+	}
+}

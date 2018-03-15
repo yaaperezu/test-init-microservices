@@ -1,0 +1,5 @@
+package com.osi.his.clienttest.ClientConfigServerHC.controller;
+
+public class TestController {
+
+}

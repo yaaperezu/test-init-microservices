@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: EurekaServerHC
+  cloud:
+    config:
+      fail-fast: true
+      uri: http://localhost:8888
+    
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false

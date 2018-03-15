@@ -1,0 +1,11 @@
+# Discovery Server Access
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: ${EUREKA_ENDPOINT}
+
+logging:
+  file: logs/${spring.application.name}.log
+  level:
+    org.springframework.cloud: 'DEBUG'
+    com.atsistemas: 'DEBUG'

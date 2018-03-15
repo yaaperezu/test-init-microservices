@@ -1,0 +1,28 @@
+spring:
+  application:
+    name: EurekaServerHC
+  cloud:
+    config:
+      fail-fast: true
+      uri: http://localhost:8888
+  thymeleaf:
+    enabled: false
+    
+# Configure this Discovery Server
+eureka:
+  instance:
+    hostname: localhost
+    prefer-ip-address: true
+  client:  # Not a client, don't register with yourself
+    registerWithEureka: false
+    fetchRegistry: false
+  server:
+    enableSelfPreservation: false
+
+logging:
+  file: logs/${spring.application.name}.log
+  level:
+    com.netflix.discovery: 'OFF'
+    org.springframework.cloud: 'INFO'
+    org.springframework.web: 'INFO'
+    com.atsistemas: 'DEBUG'

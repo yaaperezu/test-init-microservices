@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: EurekaServerHC
+  cloud:
+    config:
+      failFast: true
+      uri: http://localhost:8888

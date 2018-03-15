@@ -1,0 +1,25 @@
+package com.osi.his.clienttest.ClientConfigServerHC;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class ClientConfigServerHcApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(ClientConfigServerHcApplication.class, args);
+	}
+}
+
+@RefreshScope
+@RestController
+class MessageRestController {
+ 
+    @Value("${msg:Hello world - Config Server is not working..pelase check}")
+    private String msg;
+ 
+    @RequestMapping("/msg")
+    String getMsg() {
+        return this.msg;
+    }
+}

@@ -1,0 +1,7 @@
+package com.osi.his.clienttest.ClientConfigServerHC.config;
+
+@Configuration
+@EnableSwagger2
+public class SwaggerConfig {
+
+}

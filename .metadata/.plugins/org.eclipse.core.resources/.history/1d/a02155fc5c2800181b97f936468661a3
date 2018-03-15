@@ -1,0 +1,16 @@
+server:
+  port: ${PORT:3333}   # HTTP port
+  
+spring:
+  application:
+    name: ClientConfigServerHC
+  profiles:
+    active: dev
+    
+logging:
+  file: logs/${spring.application.name}.log
+  level:
+    com.netflix.discovery: 'OFF'
+    org.springframework.cloud: 'INFO'
+    org.springframework.web: 'INFO'
+    com.atsistemas: 'DEBUG'
