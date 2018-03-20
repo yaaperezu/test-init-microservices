@@ -1,0 +1,22 @@
+#Configuration for failfast=false
+
+# HTTP Server
+server:
+  port: ${PORT:8081}   # HTTP port
+  
+logging:
+  file: logs/${spring.application.name}.log
+  level:
+    com.netflix.discovery: 'OFF'
+    org.springframework.cloud: 'INFO'
+    org.springframework.web: 'INFO'
+    com.atsistemas: 'DEBUG'
+
+# Discovery Server Access
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    hostname: localhost
+    nonSecurePort: 8081      

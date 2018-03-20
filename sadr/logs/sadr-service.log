@@ -1,0 +1,9 @@
+2018-03-16 11:22:14.552  INFO 5986 --- [RMI TCP Connection(62)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2018-03-16 11:22:14.647  INFO 5986 --- [RMI TCP Connection(62)-127.0.0.1] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5dcd8c7a: startup date [Thu Mar 15 17:47:29 COT 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@3f56875e
+2018-03-16 11:22:14.685  INFO 5986 --- [RMI TCP Connection(62)-127.0.0.1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application sadr-service with eureka with status DOWN
+2018-03-16 11:22:14.848  INFO 5986 --- [RMI TCP Connection(62)-127.0.0.1] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 2147483647
+2018-03-16 11:22:14.857  INFO 5986 --- [RMI TCP Connection(62)-127.0.0.1] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 0
+2018-03-16 11:22:14.884  INFO 5986 --- [RMI TCP Connection(62)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-03-16 11:22:14.895  INFO 5986 --- [RMI TCP Connection(62)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2018-03-16 11:22:15.278  INFO 5986 --- [RMI TCP Connection(62)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2018-03-16 11:22:15.300  INFO 5986 --- [localhost-startStop-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
